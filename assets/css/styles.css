@@ -123,7 +123,7 @@ img {
 
 .section__title-gradient {
     background: var(--text-gradient);
-    color: transparent;
+    color: #7e7e7e;
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -274,7 +274,7 @@ img {
     line-height: 6rem;
     font-size: var(--biggest-font-size);
     background: var(--text-gradient);
-    color: transparent;
+    color: #7e7e7e;
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -377,10 +377,10 @@ img {
 }
 
 .specs__img {
-    width: 250px;
+    width: 143px;
     position: absolute;
-    top: 2rem;
-    right: -4rem;
+    top: 5rem !important;
+    right: -4rem !important;
 }
 
 
@@ -429,7 +429,7 @@ img {
     width: 300px;
     position: absolute;
     top: 4rem;
-    right: -11rem;
+    right: -12rem;
 }
 
 
@@ -644,7 +644,7 @@ img {
         font-size: var(--small-font-size);
     }
     .specs__img {
-        width: 200px;
+        width: 170px;
     }
     .case__container {
         grid-template-columns: .6fr 1fr;
@@ -748,7 +748,7 @@ img {
         padding-top: 8rem;
     }
     .specs__img {
-        width: 300px;
+        width: 270px;
     }
     .case__container {
         column-gap: 5rem;
